@@ -29,7 +29,7 @@ public class CashBackHackerServiceTest{
     @org.junit.Test
     public void shouldCalculateRemaind0() {
         CashBackHackerService service = new CashBackHackerService();
-        int amount = 1000;
+        int amount = 2000;
         int expected = 0;
         int actual = service.remain(amount);
         assertEquals(expected, actual);
