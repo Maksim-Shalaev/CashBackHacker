@@ -34,8 +34,4 @@ public class CashBackHackerServiceTest{
         int actual = service.remain(amount);
         assertEquals(expected, actual);
     }
-
-
-
-
 }
